@@ -136,11 +136,6 @@ body {
   display: flex;
 }
 
-/* Supplied CSS follows. */
-.header-nav__group{
-  display: flex;
-}
-
 .boards__sidebar {
   background-color: #6C547B;
   border-radius: 3px;
@@ -181,6 +176,23 @@ body {
   width: 25%;
   flex-direction: column;
   justify-content: space-around;
+}
+
+@media screen and (min-width: 751px) and (max-width: 1280px) {
+  .boards__board {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .boards__board {
+    width: 100%;
+  }
+}
+
+/* Supplied CSS follows. */
+.header-nav__group{
+  display: flex;
 }
 
 .header-nav__button {
